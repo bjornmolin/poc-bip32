@@ -1,0 +1,8 @@
+[package]
+name = "poc-bip32"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bip32 = "0.5.1"
+rand_core = { version = "0.6", features = ["std"] }
